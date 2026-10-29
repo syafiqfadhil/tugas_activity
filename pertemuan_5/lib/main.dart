@@ -68,7 +68,7 @@ class MainApp extends StatelessWidget {
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Fitur edit belum aktif pada modul statis.'))
-                   );
+                  );
                 },
                 icon: const Icon(Icons.edit),
                 label: const Text('Edit Profil'),
@@ -124,7 +124,6 @@ class MainApp extends StatelessWidget {
         ),
       ),
       );
-    ); 
   }
 }
 
