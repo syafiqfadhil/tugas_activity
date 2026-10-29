@@ -91,7 +91,7 @@ class MainApp extends StatelessWidget {
                     const StatItem(count: '1.2K', label: 'Followers'),
                     const SizedBox(width: 24), 
                     
-                    StatItem(count: 42, label: 'Following'),
+                    StatItem(count: '42', label: 'Following'),
                   ],
                 ),
               ),
