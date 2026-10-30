@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
   final List<String> experiences = const[ 
     'Senior Backend Engineer - EDC Bank DKI',
     'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo'
+    'Lead Developer - Aplikasi Sekurindo',
     'Backend Engineer - Pengembangan Sistem E-money', 
   ];
 
@@ -86,7 +86,7 @@ class MainApp extends StatelessWidget {
                   children: [
                     const StatItem(count: '15', label: 'Proyek'),
                     
-                    const SizedBox(height: 24),
+                    const SizedBox(width: 24),
                     
                     const StatItem(count: '1.2K', label: 'Followers'),
                     const SizedBox(width: 24), 
