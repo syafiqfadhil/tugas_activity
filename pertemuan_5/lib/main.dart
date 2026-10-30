@@ -6,12 +6,12 @@ void main() {
 }
 
 class MainApp extends StatelessWidget {
-  MainApp({super.key});
+  const MainApp({super.key});
 
-  final String userName = 'I Ketut Gunawan, S.Kom, M.T.I.';
-  final String role = 'Senior Backend Engineer & Dosen';
+  final String userName = 'Fadhil Hidayattulloh';
+  final String role = 'Mahasiswa';
 
-  final List<String> experiences = [
+  final List<String> experiences = const[ 
     'Senior Backend Engineer - EDC Bank DKI',
     'Backend & System Architect - Secure Payment EDC',
     'Lead Developer - Aplikasi Sekurindo'
