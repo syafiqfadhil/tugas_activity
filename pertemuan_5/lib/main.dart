@@ -113,6 +113,8 @@ class MainApp extends StatelessWidget {
                 const Divider(),
 
                 ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
                   itemCount: experiences.length,
                   itemBuilder: (context, index) {
                     return Card(
