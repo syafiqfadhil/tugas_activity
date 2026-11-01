@@ -128,10 +128,10 @@ class ProfileStats extends StatelessWidget {
 class ExperienceSection extends StatelessWidget {
   const ExperienceSection({super.key});
   final List<String> experiences = const[ 
-    'Senior Backend Engineer - EDC Bank DKI',
-    'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo',
-    'Backend Engineer - Pengembangan Sistem E-money', 
+    'Project Weather - Cuy Weather',
+    'Project E-Commerce - Niaga Jaya Electronic',
+    'Project Pest Control - Aplikasi Pengendali Hama',
+    'Project Perpustakaan  - Sistem Pengatur Perpusatakaan', 
   ];
 
   @override
@@ -140,7 +140,7 @@ class ExperienceSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'Pengalaman Kerja',
+          'Pengalaman Project',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         const Divider(),
